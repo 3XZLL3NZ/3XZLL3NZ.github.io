@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Agdasima", serif;
+    font-weight: 300;
+    color: rgb(59, 11, 11);
+}
+header{
+    background-color: rgb(226, 182, 157);
+}
+header>*{
+    display: inline-block;
+    width: 450;
+}
+.ladno{
+    width: 10px;
+}
+header a{
+    text-decoration: none;
+    color: rgb(92, 22, 22);
+    margin:0 10px;
+    font-size: 150%;
+    font-weight: 200%;
+}
+header>img{
+    width: 3%;
+    height: 3%;
+}
+nav {
+    width: 15%;
+}
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(167, 114, 46);
+}
+
+a:active {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner {
+    padding: 10% 65%;
+    color: rgb(233, 182, 152);
+    font-size: 40px;
+    background-position: center;
+    background-image: url(all.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-left: 0px;
+    padding-bottom: 7vh;
+}
+.banner>*{
+    margin-left: 20px;
+}
+
+.h1>*{
+    font-size: 70px;
+    color: rgb(167, 71, 71);
+    margin: 0;
+}
+.p {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+main {
+    background-image: url(all2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    padding-left: 0px;
+}
+.red {
+    font-size: 14px;
+    color: rgb(253, 175, 151);
+    text-align: inherit;
+    padding: 0;
+    display: inline-block;
+    
+
+    
+}
+img {
+    width: auto;
+    height: 140px;
+    
+    
+}
+
+
+.black {
+    font-size: 14px;
+    color: rgb(253, 175, 151);
+    text-align: inherit;
+    padding: 0;
+    display: inline-block;
+    
+
+}
+
+
+.white {
+    font-size: 14px;
+    color: rgb(253, 175, 151);
+    text-align: inherit;
+    padding: 0;
+    display: inline-block;
+    
+
+}
+
+
+.bass {
+    font-size: 14px;
+    color: rgb(253, 175, 151);
+    text-align: inherit;
+    display: inline-block;
+    
+}
+.bass>img{
+    width: 83px;
+    height: 140px;
+}
+
+.final{
+    background-color: bisque;
+    
+}
+
+.link{
+    display: inline-block;
+    background-color: rgb(175, 124, 58);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1% 3%;
+}
